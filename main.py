@@ -4,9 +4,7 @@ import time
 
 tic = time.perf_counter()
 
-df = pd.read_csv("https://raw.githubusercontent.com/onithish/Bar_Chart_Race_AAUM/main/data.csv", index_col=0)
-# df.fillna(0.00, inplace=True)
-# df.to_csv("C:\python\Working\Automate-Learnings\bar_chart_race\data.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/onithish/Bar_Chart_Race_AAUM/main/data.csv", index_col=0) #data path
 
 # using the bar_chart_race package
 bcr.bar_chart_race(
@@ -32,7 +30,7 @@ bcr.bar_chart_race(
     shared_fontdict={'family': 'cursive', 'weight': 'semibold', 'color': 'darkslategrey'},
     cmap = 'tab20',
     # name of the video file
-    filename="C:\\python\\Working\\Automate-Learnings\\bar_chart_race\\video4.mp4"
+    filename="C:\\video4.mp4" # mention your download directory
     )
 
 toc = time.perf_counter()
