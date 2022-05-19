@@ -4,7 +4,7 @@ import time
 
 tic = time.perf_counter()
 
-df = pd.read_csv("https://raw.githubusercontent.com/onithish/demo-repo/main/data.csv", index_col=0)
+df = pd.read_csv("https://raw.githubusercontent.com/onithish/Bar_Chart_Race_AAUM/main/data.csv", index_col=0)
 # df.fillna(0.00, inplace=True)
 # df.to_csv("C:\python\Working\Automate-Learnings\bar_chart_race\data.csv")
 
